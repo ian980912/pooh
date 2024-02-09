@@ -144,14 +144,26 @@
                 margin: 5px 0;
                 background-color: #ffffff;
             }
+            .inline-content img {
+                display: inline-block;
+                vertical-align: middle;
+            }
+
+            .inline-content h2 {
+                display: inline-block;
+                vertical-align: middle;
+                margin-left: 10px; /* 可以調整圖片和文字之間的間距 */
+            }
 
 
         </style>
         <!-- 影片標題用h1標籤 -->
         <h1 id="title">【Pooh】熊之介紹</h1>
         <!-- 頻道名稱用h2標籤 -->
-        <a href="IMG_1146.JPG"></a>
-        <h2>Orientationer: Mic</h2>
+        <div class="inline-content">
+            <h2>Orientationer: Mic</h2>
+            <img src="IMG_1146.JPG" width="30">
+        </div>
         <!-- 3個按鈕標籤 -->
         <button class="subscribe-button">訂閱</button>
         <button class="thumb-button">按讚</button>
@@ -185,11 +197,12 @@
         <iframe width="560" height="315" src="https://www.youtube.com/embed/-SwWL5xCzhM?si=RJ-Ta5W1m0_2FiaT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
         <!--列表 表格-->
+        <h2>動物list</h2>
         <ul>
             <li>新米</li>
-            <li>米瑞</li>
-            <li>新熊</li>
-            <li>檸檬</li>
+            <li>owl</li>
+            <li>eeyore</li>
+            <li>米米</li>
         </ul>
         <ol type="A">
             <li>brownies</li>
