@@ -1,4 +1,3 @@
-# pooh
 <!DOCTYPE html>
 <html>
     <head>
